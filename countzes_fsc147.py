@@ -679,9 +679,6 @@ def SSES(              # Similarity guided SAM-based Exemplar Selection
     
     if sim_clip is None:
         raise ValueError("sim_clip must be provided.")
-    
-    sim_clip = 1 - sim_clip
-
     H, W = test_image.shape[:2]
     x0, y0, x1, y1 = map(int, bbox_coord)
     x0, y0 = max(0, x0), max(0, y0)
