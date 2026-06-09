@@ -17,7 +17,9 @@ We introduce **CountZES** 🚀 for **Object Counting via Zero-Shot Exemplar Sele
 👑 **End-to-End**  
 ❄️ **Training-free**  
 
-![Main_figure_arxiv](https://github.com/user-attachments/assets/aeb4573b-e3e2-4274-a6f5-42740412307b)
+<img width="7465" height="3543" alt="Main_figure_v2" src="https://github.com/user-attachments/assets/49aefbf0-e8c6-46de-b763-1b56e208d558" />
+
+
 ## 🛠️ Requirements
 
 ### Installation
