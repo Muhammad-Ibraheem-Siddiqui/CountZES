@@ -1,4 +1,4 @@
-## **CountZES: Counting via Zero-Shot Exemplar Selection** [WACV 2027 🔥]
+## **CountZES: Counting via Zero-Shot Exemplar Discovery and Selection** [WACV 2027 🔥]
 
 ### Abstract
 Object counting in complex scenes remains challenging, particularly in the zero-shot setting, where the goal is to count instances of unseen categories specified only by a class name. Existing zero-shot object counting (ZOC) methods that infer exemplars from text either rely on open-vocabulary detectors, which often yield multi-instance candidates, or on random patch sampling, which fails to accurately delineate object instances. To address this, we propose CountZES, a training-free framework for object counting via zero-shot exemplar selection. CountZES progressively discovers diverse exemplars through three synergistic stages: Detection-Anchored Exemplar (DAE), Density-Guided Exemplar (DGE), and Feature-Consensus Exemplar (FCE). DAE refines open-vocabulary detections to isolate precise single-instance exemplars. DGE introduces a density-driven, self-supervised paradigm to identify statistically consistent and semantically compact exemplars, while FCE reinforces visual coherence through feature-space clustering. Together, these stages yield a diverse, complementary exemplar set that balances textual grounding, count consistency, and feature representativeness. Experiments on diverse datasets demonstrate CountZES superior performance among ZOC methods while generalizing effectively across natural, aerial and medical domains.
@@ -111,7 +111,7 @@ Our repo benefits from [SAM](https://github.com/facebookresearch/segment-anythin
 ## ✒️ Citation
 
     @article{siddiqui2025countzes,
-      title={CountZES: Counting via Zero-Shot Exemplar Selection},
+      title={CountZES: Counting via Zero-Shot Exemplar Discovery and Selection},
       author={Siddiqui, Muhammad Ibraheem and Khan, Muhammad Haris},
       journal={arXiv preprint arXiv:2512.16415},
       year={2025}
