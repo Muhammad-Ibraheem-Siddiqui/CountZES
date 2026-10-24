@@ -9,7 +9,7 @@ Zero-shot object counting (ZOC) aims to count instances of unseen categories usi
 
 
 ## 🔥 News
-* Excited to announce acceptance of PerSense at WACV 2027 🚀
+* Excited to announce acceptance of CountZES at WACV 2027 🚀
 * We release the code for **CountZES** 🚀
 * CountZES paper is released [arXiv Link](https://arxiv.org/abs/2512.16415)
 ## 🌟 Highlight
